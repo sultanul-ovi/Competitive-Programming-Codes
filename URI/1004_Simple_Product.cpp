@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-    int a, b,sum;
+    int a, b,prod;
     scanf("%d", &a);
     scanf("%d", &b);
-    sum = a+b;
-    printf("SOMA = %d\n",sum);
+    prod = a*b;
+    printf("PROD = %d\n",prod);
     return 0;
 }
